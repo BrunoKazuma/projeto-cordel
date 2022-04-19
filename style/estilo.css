@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Bungee', cursive;
+    --fonte3: 'Grape Nuts', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body html{
+    min-height: 100vh;
+    text-align: justify;
+    background-color: rgb(51, 51, 51);
+    font-family: var(--fonte1);
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+header h1{
+    padding: 50px;
+    padding-bottom: 0px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 8vw;
+}
+header p{
+    padding-bottom: 50px;
+    font-size: 2.5vw;
+}
+header a, footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+header a:hover, footer a:hover{
+    color: rgb(138, 138, 138);
+    text-decoration: underline;
+}
+section{
+    padding: 10% 0%;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-weight: 800;
+    font-size:3.5vw;
+}
+.normal{
+    background-color: white;
+    color: black;
+}
+.imagem{
+    background-color: rgba(32, 32, 32, 0.445);
+    color: white;
+}
+section.imagem p{
+    background-color: rgba(0, 0, 0, 0.26);
+    display: inline-block;
+    padding: 5px;
+}
+footer{
+    background-color: rgb(8, 8, 8);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
