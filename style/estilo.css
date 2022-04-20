@@ -114,7 +114,7 @@ section#img02{
 }
 section.imagem p{
     background-color: rgba(0, 0, 0, 0.26);
-    /*definir o display dessa tag, para ela se comportar com outro display, inline-block para ela quebrar sem alterar a organização do texto, nesse caso em estrofes*/
+    /*definir o display dessa tag, para ela se comportar como outro display, inline-block para ela quebrar sem alterar a organização do texto, nesse caso em estrofes*/
     display: inline-block;
     padding: 5px;
     /*definir sombra do texto*/
